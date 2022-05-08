@@ -1,0 +1,21 @@
+# site scope vars
+timezone: Asia/Shanghai
+
+title: 一个专题网站的例子
+title_en: Some Site
+email: someone@some.com
+baseurl: ""
+
+# 构建时排除的文件
+exclude:
+  - Gemfile*
+  - README.md
+  - auto_sync.sh
+  - install_jekyll.sh
+  - .*
+  - install_service.sh
+  - isc_site_auto_ci.service
+  - TIMESTAMP.txt
+
+plugins:
+  - jekyll-redirect-from

@@ -1,0 +1,56 @@
+<nav>
+    <!-- Navbar -->
+    <div class="container">
+        <ul class="nav nav-pills nav-fill">
+            {% for item in site.data.navbar %}
+                <li class="nav-item dropdown">
+                    {%  assign has_sublink = item.sublinks %}
+
+                    <a class="nav-link {% if page.url contains item.link %}active{% endif %} {% if has_sublink %}dropdown-toggle{% endif %}" {% if has_sublink %} data-toggle="dropdown" {% endif %} href="{{ item.link }}">
+                        {{ item.name }}
+                    </a>
+
+                    {% if has_sublink %}
+                        <div class="dropdown-menu">
+                            {% for sublink in item.sublinks %}
+                                <a class="dropdown-item" href="{{ sublink.link }}">{{ sublink.name }}</a>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <p></p>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+        {% if page.url == "/home/" %}
+            &nbsp;
+        {% else %}
+            <a href="/home/">首页</a>
+            <i class="bi bi-arrow-right"></i>
+
+            {% for item in site.data.navbar %}
+                {% if page.url contains item.link %}
+                    {% if item.sublinks %}
+                        <a href="{{ item.link }}">{{ item.name }}</a>
+
+                        <i class="bi bi-arrow-right"></i>
+
+                        {% for sublink in item.sublinks %}
+                            {% if page.url == sublink.link %}
+                                {{ sublink.name }}
+                            {% endif %}
+                        {% endfor %}
+                    {% else %}
+                        {{ item.name }}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+</nav>
+
+<hr/>

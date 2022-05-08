@@ -1,0 +1,13 @@
+[Unit]
+After=network.service
+
+# 注意：绝对路径耦合
+# - install_jekyll.sh
+# - isc_site_auto_ci.service
+# - auto_sync.sh
+[Service]
+ExecStart=/workspaces/isc_site/auto_sync.sh
+
+
+[Install]
+WantedBy=default.target

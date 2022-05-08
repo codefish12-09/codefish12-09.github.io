@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+
+    <head>
+        <!-- 必须的 meta 标签 -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap 的 CSS 文件 -->
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+        {% comment %}图标库 （https://icons.bootcss.com/#icon-font）{% endcomment %}
+        <link rel="stylesheet" href="/assets/font/bootstrap-icons-1.8.1/bootstrap-icons.css">
+
+        <title>{{ page.title }} - {{ site.title }}</title>
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+            {% include header.html %}
+            {% include navbar.html %}
+            {{ content }}
+            {% include footer.html %}
+
+            <!-- <img src="holder.js/300x300" alt=""> -->
+        </div>
+
+        <!-- jQuery 和 Bootstrap 集成包（集成了 Popper） -->
+        <script src="/assets/js/jquery.slim.min.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+        <!-- image holder 的 CSS 文件 -->
+        <script src="/assets/js/holder.min.js"></script>
+    </body>
+
+</html>
