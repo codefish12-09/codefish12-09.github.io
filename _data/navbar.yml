@@ -1,16 +1,16 @@
 - name: 首页
   link: /home/
 
-- name: 简介hh
+- name: 简介
   link: /about/
   sublinks:
-    - name: 网站简介
+    - name: 医学影像处理简介
       link: /about/lab_ntroduction/
 
-    - name: 机构设置
+    - name: 应用领域
       link: /about/organizational_structure/
 
-    - name: 科研人员
+    - name: 相关机构
       link: /about/researchers/
 
 - name: 科学研究
