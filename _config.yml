@@ -1,8 +1,8 @@
 # site scope vars
 timezone: Asia/Shanghai
 
-title: 一个专题网站的例子
-title_en: Some Site
+title: 医学影像处理科普网站
+title_en: Medical Image Processing
 email: someone@some.com
 baseurl: ""
 
