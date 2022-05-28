@@ -1,7 +1,7 @@
 - name: 首页
   link: /home/
 
-- name: 简介
+- name: 简介hh
   link: /about/
   sublinks:
     - name: 网站简介
