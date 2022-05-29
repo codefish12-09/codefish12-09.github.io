@@ -1,8 +1,71 @@
 ---
 layout: default
-title: 应用产品
+title: 科研方向
 permalink: /science/application_products/
 ---
+<title>医学影像相关科研方向</title>
+<!--link rel="stylesheet" href="/static/v2/css/content.css"-->
 
-<h1>实验室介绍.应用产品</h1>
-{{ page.url }}
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond./static/v2/js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body lang="zh-cn">
+<div class="page-wrap">
+
+
+
+<!-- base content begin -->
+
+<!-- translate college to zh-cn-->
+<!-- content-->
+<div>
+    <div class="inner">
+
+        
+        <h1 class="brief-title">一、病变检测</h1>
+        <div id="brief-content" class="uecontent">
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;计算机辅助检测（CAD）是医学图像分析的有待完善的领域，并且非常适合引入深度学习。在CAD 的标准方法中，一般通过监督方法或经典图像处理技术（如过滤和数学形态学）检测候选病变位置。病变位置检测是分阶段的，并且通常由大量手工制作的特征描述。将分类器用于特征向量映射到候选者来检测实际病变的概率。采用深度学习的直接方式是训练CNN操作一组以图像为中心的图像数据候选病变。Setio等在3D胸部CT扫描中检测肺结节，并在九个不同方向上提取以这些候选者为中心的2D贴片[6]，使用不同CNN的组合来对每个候选者进行分类，CAD系统结构如图1所示。根据检测结果显示，与先前公布的用于相同任务的经典CAD系统相比略有改进。罗斯等人应用CNN改进三种现有的CAD系统，用于检测CT成像中的结肠息肉，硬化性脊柱变形和淋巴结肿大[7]。他们还在三个正交方向上使用先前开发的候选检测器和2D贴片，以及多达100个随机旋转的视图。随机旋转的“2.5D”视图是从原始3D数据分解图像的方法。采用CNN对这些2.5D视图图像检测然后汇总，来提高检测的准确率。对于使用CNN的三个CAD系统，病变检测的准确率度提高了13-34％，而使用非深度学习分类器（例如支持向量机）几乎不可能实现这种程度的提升。早在1996年，Sahiner等人就已将CNN应用于医学图像处理。从乳房X线照片中提取肿块或正常组织的ROI。 CNN由输入层，两个隐藏层和输出层组成，并用于反向传播。在“GPU时代”以前，训练时间被描述为“计算密集型”，但没有给出任何时间。1993年，CNN应用于肺结节检测；1995年CNN用于检测乳腺摄影中的微钙化。
+            <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hZTAxLmFsaWNkbi5jb20va2YvVVRCODEwa0V2bl9JWEtKa1NhbFU3NjFCelZYYTAucG5n" > 
+            <span></span> 
+        </div>
+        <h1 class="brief-title">二、图像分割</h1>
+        <div id="brief-content" class="uecontent">
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 医学图像分割就是一个根据区域间的相似或不同把图像分割成若干区域的过程。目前，主要以各种细胞、组织与器官的图像作为处理的对象。传统的图像分割技术有基于区域的分割方法和基于边界的分割方法，前者依赖于图像的空间局部特征，如灰度、纹理及其它象素统计特性的均匀性等，后者主要是利用梯度信息确定目标的边界。结合特定的理论工具，图象分割技术有了更进一步的发展。比如基于三维可视化系统结合FastMarching算法和Watershed 变换的医学图象分割方法，能得到快速、准确的分割结果。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 近年来，随着其它新兴学科的发展，产生了一些全新的图像分割技术。如基于统计学的方法、基于模糊理论的方法、基于神经网络的方法、基于小波分析的方法、基于模型的snake 模型(动态轮廓模型)、组合优化模型等方法。虽然不断有新的分割方法被提出，但结果都不是很理想。目前研究的热点是一种基于知识的分割方法，即通过某种手段将一些先验的知识导入分割过程中，从而约束计算机的分割过程，使得分割结果控制在我们所能认识的范围内而不至于太离谱。比如在肝内部肿块与正常肝灰度值差别很大时，不至于将肿块与正常肝看成 2 个独立的组织。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 医学图像分割方法的研究具有如下显著特点：现有任何一种单独的图像分割 算法都难以对一般图像取得比较满意的结果，要更加注重多种分割算法的有效结合；由于人体解剖结构的复杂性和功能的系统性，虽然已有研究通过医学图像的自动分割区分出所需的器官、组织或找到病变区的方法，但目前现成的软件包一般无法完成全自动的分割，尚需要解剖学方面的人工干预。在目前无法完全由计算机来完成图像分割任务的情况下，人机交互式分割方法逐渐成为研究重点；新的分割方法的研究主要以自动、精确、快速、自适应和鲁棒性等几个方向作为研究目标，经典分割技术与现代分割技术的综合利用(集成技术)是今后医学图像分割技术的发展方向
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 利用2891次心脏超声检查的数据集，Ghesu等结合深度学习和边缘空间学习进行医学图像检测和分割。“大参数空间的有效探索”和在深度网络中实施稀疏性的方法相结合，提高了计算效率，并且与同一组发布的参考方法相比，平均分割误差减少了13.5％，八位患者的检测结果如图4所示。Brosch等人利用MRI图像上研究多发性硬化脑病变分割的问题。开发了一种3D深度卷积编码器网络，它结合了卷积和反卷积，图5.增加网络深度对病变的分割性能的影响。卷积网络学习了更高级别的特征，并且反卷积网络预进行像素级别分割。将网络应用于两个公开的数据集和一个临床试验数据集，与5种公开方法进行了比较，展现了最好的方法。Pereira等人的研究中对MRI上的脑肿瘤分割进行了研究，使用更深层的架构，数据归一化和数据增强技巧。将不同的CNN架构用于肿瘤，该方法分别对疑似肿瘤的图像增强和核心区域进行分割。在2013年的公共挑战数据集上获得了最高成绩。
+            <p></p>
+                <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hZTAxLmFsaWNkbi5jb20va2YvVVRCOHdPUUV2bl9JWEtKa1NhbFVxNnlCelZYYWcuanBn" > 
+            <span></span> 
+
+        </div>
+        <h1 class="brief-title">三、图像配准</h1>
+        <div id="brief-content" class="uecontent">
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;图象配准是图象融合的前提，是公认难度较大的图象处理技术，也是决定医学图象融合技术发展的关键技术。在临床诊断中，单一模态的图像往往不能提供医生所需要的足够信息，常需将多种模式或同一模式的多次成像通过配准融合来实现感兴趣区的信息互补。在一幅图像上同时表达来自多种成像源的信息，医生就能做出更加准确的诊断或制定出更加合适的治疗方法。医学图像配准包括图像的定位和转换，即通过寻找一种空间变换使两幅图像对应点达到空间位置和解剖结构上的完全一致。
+                <p></p>
+                <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hZTAxLmFsaWNkbi5jb20va2YvVVRCOEdyUXp2Ym5KWEtKa1NhaEc3NjBoekZYYVkucG5n"> 
+            <span></span> 
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 2019年华中科技大学对基于PCANet的结构非刚性多模医学图像配准展开研究。提出了一种基于PCANet的结构表示方法用于多模态医学图像配准。与人工设计的特征提取方法相比，PCANet可以通过多级线性和非线性变换自动从大量医学图像中学习内在特征。所提出的方法可以通过利用PCANet的各个层中提取的多级图像特征来为多模态图像提供有效的结构表示。对Atlas，BrainWeb和RIRE数据集的大量实验表明，与MIND，ESSD，WLD和NMI方法相比，所提出的方法可以提供更低的TRE值和更令人满意的结果。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;  近年来，医学图像配准技术有了新的进展,在配准方法上应用了信息学的理论和方法，例如应用最大化的互信息量作为配准准则进行图像的配准，基于互信息的弹性形变模型也逐渐成为研究热点。在配准对象方面从二维图像发展到三维多模医学图像的配准。一些新算法，如基于小波变换的算法、统计学参数绘图算法、遗传算法等，在医学图像上的应用也在不断扩展。向快速和准确方面改进算法，使用最优化策略改进图像配准以及对非刚性图像配准的研究是今后医学图像配准技 术的发展方向。
+                <p></p>
+                <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hZTAxLmFsaWNkbi5jb20va2YvVVRCOFhuamhPU25FWEtKazQzVWJxNnpMcHBYYUouanBn"> 
+            <span></span>
+
+        </div>
+        <h1 class="brief-title">四、图像融合</h1>
+        <div id="brief-content" class="uecontent">
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 图像融合的主要目的是通过对多幅图像间的冗余数据的处理来提高图像的可读性，对多幅图像间的互补信息的处理来提高图像的清晰度。多模态医学图像的融合把有价值的生理功能信息与精确的解剖结构结合在一起，可以为临床提供更加全面和准确的资料。融合图像的创建分为图像数据的融合与融合图像的显示两部分来完成。目前，图像数据融合主要有以像素为基础的方法和以图像特征为基础的方法。前者是对图像进行逐点处理，把两幅图像对应像素点的灰度值进行加权求和、灰度取大或者灰度取小等操作，算法实现比较简单，不过实现效果和效率都相对较差，融合后图像会出现一定程度的模糊。后者要对图像进行特征提取、目标分割等处理，用到的算法原理复杂，但是实现效果却比较理想。融合图像的显示常用的有伪彩色显示法、断层显示法和三维显示法等。伪彩色显示一般以某个图像为基准,用灰度色阶显示，另一幅图像叠加在基准图像上，用彩色色阶显示。断层显示法常用于某些特定图像，可以将融合后的三维数据以横断面、冠状面和矢状面断层图像同步地显示，便于观察者进行诊断。三维显示法是将融合后数据以三维图像的形式显示，使观察者可更直观地观察病灶的空间解剖位置，这在外科手术设计和放疗计划制定中有重要意义。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 在图像融合技术研究中，不断有新的方法出现，其中小波变换、 基于有限元分析的非线性配准以及人工智能技术在图像融合中的应用将是今后图像融合研究的热点与方向。随着三维重建显示技术的发展，三维图像融合技术的研究也越来越受到重视，三维图像的融合和信息表达，也将是图像融合研究的一个重点。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 在计算机辅助图像处理的基础上，开发出综合利用图像处理方法， 结合人体常数和部分疾病的影像特征来帮助或模拟医生分析、诊断的图像分析系统成为一种必然趋势。目前已有一些采用人机交互定点、自动测量分析的图像分析软件，能定点或定项地完成一些测量和辅助诊断的工作，但远远没有达到智能分析和专家系统的水平；全自动识别标志点并测量分析以及医学图像信息与文本信息的融合， 是计算机辅助诊断技术今后的发展方向。
+                <p></p>
+                <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hZTAxLmFsaWNkbi5jb20va2YvVVRCODJ1REZPT0RFWEtKazQzT3E3NjN6M1hYYWMucG5n"> 
+            <span></span>
+
+        </div>
+        
