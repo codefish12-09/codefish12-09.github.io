@@ -1,9 +1,39 @@
 ---
 layout: default
-title: 首页hh
+title: 首页
 permalink: /home/
 redirect_from:
   - /
 ---
 
 <h1>首页.</h1>
+<div class="container">
+  <div class="integrity-v">
+    <div class="video">
+      <div class="video-inner">
+        <span class="v1">科普</span><span class="v2">大家</span>
+      </div>
+    </div>
+    <!-- 标题 -->
+    <div class="title">
+      <div class="t-left">
+        <span class="t-title t-famous"></span>
+        <span class="new"><a href="/www/articlelist/mjzl?pageSize=15&column=famous" target="_blank">名家专栏</a></span>
+      </div>
+      <div class="t-right">
+        <a href="/www/articlelist/mjzl?pageSize=15&column=famous" target="_blank">更&nbsp;多</a>
+      </div>
+    </div>
+    <div class="fam-con">
+      <div id="myCarousel" class="carousel">
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner famous-carousel" id="famousColumnList"></div>
+        <!-- 轮播（Carousel）导航 -->
+        <div id="famousColumnListOperation">
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
