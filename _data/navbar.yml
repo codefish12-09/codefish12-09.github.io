@@ -24,14 +24,9 @@
 
 - name: 新闻
   link: /news/
-  sublinks:
-    - name: 动态
-      link: /news/news/
 
-    - name: 通知
-      link: /news/notification_announcements/
 
-- name: 创新
+- name: 科研机构
   link: /innovation/
 
 
