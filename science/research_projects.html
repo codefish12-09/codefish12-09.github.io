@@ -1,8 +1,37 @@
 ---
 layout: default
-title: 科研奖励
+title: 科研项目
 permalink: /science/research_projects/
 ---
 
-<h1>实验室介绍.科研奖励</h1>
-{{ page.url }}
+<h1>科研项目</h1>
+<div>
+    <div class="inner">
+        <h1 class="brief-title">一、分子医学影像</h1>
+        <div id="brief-content" class="uecontent">
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;近日，北京大学/深圳湾实验室任秋实团队提出了一项无创检测视网膜动态氧代谢功能的多模态眼功能成像新技术，目前，针对这项技术，团队正与各大医院合作展开大样本临床研究，推进产业化进程。
+                <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;视网膜是人体中唯一 可以直接观察的微循环系统,视网膜微循环的结构与功能性分信息对于疾
+                    病的筛查、诊断以及预后具有重要的指导意义。
+                    视网膜多光谱成像技术是可以评估视网膜血氧饱和度,实现不同层次下的视网膜结构成像的技
+                    术，可以辅助展开病灶评估;另- -方面，激光散斑成像技术可获得无创、大视野的视网膜灌注
+                    成像信息，为视网膜供血及血流动力学分析提供了有效信息。然而，现有的视网膜结构与功能
+                    成像仪器相互独立，难以实现同步测量与评估，极大限制了视网膜结构与功能性分析。
+                    为了解决这个问题，任秋实团队将两种技术做了有机融合，结合眼动分析与瞳孔检测技术，提
+                    出了- -种新型的多模眼功能成像分析技术(图1所示)。 这项新技术可实现视网膜多光谱成像、
+                    眼底彩色合成图像、视网膜血管直径测量、视网膜血氧饱和度测量、视网膜及脉络膜血流灌注
+                    成像、视网膜血流搏动分析、视网膜氧代谢动力学等结构性与功能性信息，为更加全面地评估
+                    视网膜微循环特征提供了强有力的工具。 
+            <p></p>
+            <img src="http://image109.360doc.com/DownloadImg/2022/01/2918/238641766_1_20220129062938241.jpeg"> 
+            <span></span> 
+        </div>
+        <h1 class="brief-title">二、视觉三维重建</h1>
+        <div id="brief-content" class="uecontent">
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;近日，清华大学医学院生物医学工程系国家特聘专家廖洪恩教授课题组学术论文“OANet：基于层次结构的图神经网络来学习两视图几何匹配关系建立”（OANet: Learning Two-View Correspondences and Geometry Using Order-Aware Network）被国际电气电子工程师学会-模式分析与机器智能汇刊（IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE TPAMI）出版，刊登在2022年第44期第6卷。该研究通过设计一个新的图神经网络结构，对两视图的初步匹配关系进行误匹配识别和剔除，取得了很好的结果，极大提升了三维重建任务的效果。IEEE TPAMI是人工智能领域公认的最顶级的期刊之一，也是中国计算机学会认定的人工智能领域A类期刊之一。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;廖洪恩课题组提出了一种新的神经网络结构OANet（Order-Aware Network,图1）实现了对误匹配的高效识别和剔除。该网络以初始建立的匹配点对为输入，输出每对点对是正确匹配的概率。由于输入点对没有顺序关系，无法应用卷积神经网络，本研究从图卷积中的池化操作得到启发，以多层神经网络为基本结构，设计了差异化池化层（Differentiable Pooling layer）模块（图2左），通过训练得到一个分配矩阵（assignment matrix），将该矩阵和输入点对矩阵相乘，实现对输入点对的聚类（cluster）。文中证明，这样得到的聚类是输入不变的（permutation-equivariant），即无论输入点对是以什么顺序进入网络，得到的聚类顺序是不变的，这样通过网络学习到了输入点对的内在结构。为了使得网络能对每个输入点对都进行分类，又设计了差异化反池化层（Differentiable Unpooling Layer）模块（图2右），通过学习到一个反池化分配矩阵（unpooling assignment matrix），将聚类反投影成为与输入点对一一对应的输出结构。利用新的池化和反池化操作，可以构建层次化的图神经网络，从而极大地提升了基于多层神经网络的图神经网络的表达能力，并保持了O(N)的复杂度。网络最终为每个输入点对都被分配了一个概率，表示是否为正确匹配，以这个概率加权的八点法得到的两视图基本矩阵作为损失函数对网络进行训练。在应用阶段，剔除掉低概率的点对，就能实现对匹配的识别和过滤。
+            <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;廖洪恩课题组长期致力于三维医学影像和微创精准诊疗的研究，依据临床手术过程中的实时信息指引，以实施精密治疗从而提高治愈率和患者的生存质量（Quality of Life）为目的，致力于创建和推广一种以增强现实医学影像显示技术和智能微创器械为诊断和治疗平台的精准微创诊疗一体化模式。课题组先后提出了基于术前术中多模态信息融合分析实时诊疗引导、智能型微创手术机器人辅助精准诊疗等理论与系统，为针对复杂外科疾病的跨尺度多模态成像引导智能化诊疗理论的建立奠定了坚实的基础，相关研究被国际知名学术期刊《医学影像分析》（Medical Image Analysis）、《IEEE医学影像汇刊》（IEEE Transaction on Medical Imaging）、《柔性机器人技术》（Soft Robotics）、《诊疗》（Theranostics）等报道。
+                    
+            <p></p>
+            <img src="https://www.med.tsinghua.edu.cn/__local/F/78/0F/8E42C51704016CAA1887EEAF4FD_5CF6D0C4_1338D.png"> 
+            <span></span> 
+        

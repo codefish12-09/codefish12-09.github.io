@@ -6,34 +6,152 @@ redirect_from:
   - /
 ---
 
-<h1>首页.</h1>
-<div class="container">
-  <div class="integrity-v">
-    <div class="video">
-      <div class="video-inner">
-        <span class="v1">科普</span><span class="v2">大家</span>
+
+<head>
+  <meta charset="utf-8" />
+  <title>llll</title>
+  <style type="text/css">
+      * {
+          margin: 0px;
+          padding: 0px;
+      }
+
+      
+      #lunbotu {
+          width: 1226px;
+          height: 460px;
+          overflow: hidden;
+          position: relative;
+          margin: 0px auto;
+          position: relative;
+      }
+
+      
+      #banner {
+          height: 460px;
+          width: 6130px;
+          position: absolute;
+          transition: 2s;
+          left: 0px;
+      }
+
+      
+      #banner img {
+          float: left;
+      }
+
+      
+      #biao {
+          position: absolute;
+          top: 430px;
+          left: 43%;
+      }
+
+      
+      #biao_1 {
+          height: 20px;
+          width: 20px;
+          border: 1px solid #000;
+          z-index: 10;
+          float: left;
+          list-style: none;
+          border-radius: 50%;
+          margin-left: 20px;
+          text-align: center;
+          cursor:pointer;
+      }
+
+      
+  </style>
+</head>
+
+
+<body>
+  <div id="lunbotu">
+      <div id="banner">
+          <img class="m" src="https://icweiliimg1.pstatp.com/weili/bl/57402633056556076.jpg" />
+          <img class="m" src="2.jpg" />
+          <img class="m" src="3.jpg" />
+          <img class="m" src="4.jpg" />
+          <img class="m" src="5.jpg" />
       </div>
-    </div>
-    <!-- 标题 -->
-    <div class="title">
-      <div class="t-left">
-        <span class="t-title t-famous"></span>
-        <span class="new"><a href="/www/articlelist/mjzl?pageSize=15&column=famous" target="_blank">名家专栏</a></span>
+      <div id="biao">
+          <ul>
+              <li id="biao_1">1</li>
+              <li id="biao_1">2</li>
+              <li id="biao_1">3</li>
+              <li id="biao_1">4</li>
+              <li id="biao_1">5</li>
+          </ul>
       </div>
-      <div class="t-right">
-        <a href="/www/articlelist/mjzl?pageSize=15&column=famous" target="_blank">更&nbsp;多</a>
-      </div>
-    </div>
-    <div class="fam-con">
-      <div id="myCarousel" class="carousel">
-        <!-- 轮播（Carousel）项目 -->
-        <div class="carousel-inner famous-carousel" id="famousColumnList"></div>
-        <!-- 轮播（Carousel）导航 -->
-        <div id="famousColumnListOperation">
-          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-        </div>
-      </div>
-    </div>
   </div>
-</div>
+
+  <div id="brief-content" class="uecontent">
+
+      <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 医学图像处理的对象是各种不同成像机理的医学影像，临床广泛使用的医学成像种类主要有X-射线成像 （X-CT）、核磁共振成像（MRI）、核医学成像（NMI）和超声波成像（UI）四类。在目前的影像医疗诊断中，主要是通过观察一组二维切片图象去发现病变体，这往往需要借助医生的经验来判定。利用计算机图象处理技术对二维切片图象进行分析和处理，实现对人体器官、软组织和病变体的分割提取、三维重建和三维显示，可以辅助医生对病变体及其它感兴趣的区域进行定性甚至 定量的分析，从而大大提高医疗诊断的准确性和可靠性；在医疗教学、手术规划、手术仿真及各种医学研究中也能起重要的辅助作用[1,2]。目前，医学图像处理主要集中表现在病变检测、图像分割、图像配准及图像融合四个方面。
+      <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp; 用深度学习方法进行数据分析呈现快速增长趋势，称为2013年的10项突破性技术之一。深度学习是人工神经网络的改进，由更多层组成，允许更高层次包含更多抽象信息来进行数据预测。迄今为止，它已成为计算机视觉领域中领先的机器学习工具，深度神经网络学习自动从原始数据（图像）获得的中级和高级抽象特征。最近的结果表明，从CNN中提取的信息在自然图像中的对目标识别和定位方面非常有效。世界各地的医学图像处理机构已经迅速进入该领域，并将CNN和其它深度学习方法应用于各种医学图像分析。
+  </div>
+
+
+
+</body>
+<script type="text/javascript">
+  var slid = document.getElementById("banner");
+  //var id = document.getElementById("bt");
+  var imgwidth = document.getElementsByClassName("m");
+  var oli=document.getElementsByTagName("li");
+  //console.log(oli);
+  //console.log(imgwidth );
+  var i =0;
+  auto();
+  oli[0].style.cssText="background:#ff6700;color:#fff;";
+  function auto(){
+
+      
+      time = setInterval(function(){
+          i++;
+      if(i <= 4) {
+          slid.style.left = slid.offsetLeft - 1226 + "px";
+          oli[i].style.cssText="background:#ff6700;color:#fff;";
+          oli[i-1].style.cssText="background:none;color:#000;";
+      } else {
+          slid.style.left ="0px";
+          oli[4].style.cssText="background:none;color:#000;";
+          oli[0].style.cssText="background:#ff6700;color:#fff;";
+          i=0;
+      }
+      console.log(i);
+
+      
+  }, 3000)
+
+      
+  }
+
+  
+      for(var j=0;j<=4;j++){
+          //console.log(imgwidth[j].index);
+      imgwidth[j].index=j;
+      oli[j].index=j;
+      oli[j].onmouseover=function(){
+          this.style.cssText="background:#ff6700;color:#fff;"    
+          this.onmouseout=function(){
+              this.style.cssText="background:none;color:#000;"
+          }
+      }
+
+      
+      oli[j].onclick=function(){
+          clearInterval(time);
+          m=this.index;
+          slid.style.left=-m*1226+"px";    
+          i=m;
+          auto();
+          console.log(i);
+      }
+      }    
+  
+</script>
+
+
+</html>
