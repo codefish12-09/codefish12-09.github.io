@@ -31,6 +31,7 @@ permalink: /science/research_direction/
         <h1 class="brief-title">一、病变检测</h1>
         <div id="brief-content" class="uecontent">
             <p style="line-height: 1.75em;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"></span></p><p style="line-height: normal;"><strong><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 16px;"></span></strong></p><p>&nbsp; &nbsp;计算机辅助检测（CAD）是医学图像分析的有待完善的领域，并且非常适合引入深度学习。在CAD 的标准方法中，一般通过监督方法或经典图像处理技术（如过滤和数学形态学）检测候选病变位置。病变位置检测是分阶段的，并且通常由大量手工制作的特征描述。将分类器用于特征向量映射到候选者来检测实际病变的概率。采用深度学习的直接方式是训练CNN操作一组以图像为中心的图像数据候选病变。Setio等在3D胸部CT扫描中检测肺结节，并在九个不同方向上提取以这些候选者为中心的2D贴片[6]，使用不同CNN的组合来对每个候选者进行分类，CAD系统结构如图1所示。根据检测结果显示，与先前公布的用于相同任务的经典CAD系统相比略有改进。罗斯等人应用CNN改进三种现有的CAD系统，用于检测CT成像中的结肠息肉，硬化性脊柱变形和淋巴结肿大[7]。他们还在三个正交方向上使用先前开发的候选检测器和2D贴片，以及多达100个随机旋转的视图。随机旋转的“2.5D”视图是从原始3D数据分解图像的方法。采用CNN对这些2.5D视图图像检测然后汇总，来提高检测的准确率。对于使用CNN的三个CAD系统，病变检测的准确率度提高了13-34％，而使用非深度学习分类器（例如支持向量机）几乎不可能实现这种程度的提升。早在1996年，Sahiner等人就已将CNN应用于医学图像处理。从乳房X线照片中提取肿块或正常组织的ROI。 CNN由输入层，两个隐藏层和输出层组成，并用于反向传播。在“GPU时代”以前，训练时间被描述为“计算密集型”，但没有给出任何时间。1993年，CNN应用于肺结节检测；1995年CNN用于检测乳腺摄影中的微钙化。
+            <p></p>
             <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hZTAxLmFsaWNkbi5jb20va2YvVVRCODEwa0V2bl9JWEtKa1NhbFU3NjFCelZYYTAucG5n" > 
             <span></span> 
         </div>
