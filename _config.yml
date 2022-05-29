@@ -1,7 +1,7 @@
 # site scope vars
 timezone: Asia/Shanghai
 
-title: 医学影像处理科普网站
+title: 医学影像处理网站
 title_en: Medical Image Processing
 email: someone@some.com
 baseurl: ""
