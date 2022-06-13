@@ -23,7 +23,7 @@ const ImageFunc = {
                 var fr2 = new FileReader()
                 fr2.onload = (f2) => {
                     var request = new XMLHttpRequest()
-                    request.open("POST", "http://127.0.0.1:8000/imageFunc")
+                    request.open("POST", "http://127.0.0.1:5500/imageFunc")
                     request.setRequestHeader("content-type", "application/json")
                     request.onload = () => {
                         // 请求结束后,在此处写处理代码
@@ -57,7 +57,7 @@ const ImageFunc = {
             fr1.readAsDataURL(file1.files[0])
         },      
         go_login: function() {
-            location.assign("http://127.0.0.1:8000/loginPage")   
+            location.assign("http://127.0.0.1:5500/loginPage")   
         },
         log() {
             console.log(this.show2, this.result_image)

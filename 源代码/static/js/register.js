@@ -17,14 +17,14 @@ const Login = {
             }
 
             var request = new XMLHttpRequest();
-            request.open("POST", 'http://127.0.0.1:8000/putRegister');
+            request.open("POST", 'http://127.0.0.1:5500/putRegister');
             //发送合适的请求头信息
             request.setRequestHeader("content-type", "application/json");
             request.onload = function () {
                 // 请求结束后,在此处写处理代码
                 var res = JSON.parse(request.responseText)
                 if (res.status == true) {
-                    location.assign("http://127.0.0.1:8000/loginPage")
+                    location.assign("http://127.0.0.1:5500/loginPage")
                 } else {
                     alert(res.message)
                 }

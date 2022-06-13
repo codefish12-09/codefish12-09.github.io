@@ -2,7 +2,7 @@
 const Home = Vue.createApp({
     data() {
         return {
-            HomeHost: "http://10.100.65.194:8000",
+            HomeHost: "http://10.100.65.194:5500",
             user: {
                 name: "rain",
                 avatar: "/static/images/暗恋.jpg"
