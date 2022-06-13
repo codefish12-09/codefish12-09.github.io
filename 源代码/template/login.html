@@ -1,0 +1,51 @@
+---
+layout: default
+title: 创新
+permalink: 源代码/template/login.html/
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/bootstrap5/css/bootstrap.min.css">
+    <script src="/static/js/vue.js"></script>
+    
+    <title>图融融</title>
+</head>
+
+<body id="Rain" class="container pt-5" background="./static/image/背景-登录3.png " style="padding-bottom: 50px;background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment: fixed;" >
+    <h1 class="text-center"  style="color: #022b21f4;font-family: 'STHupo'; ">图融融(ღ˘⌣˘ღ) 满足所有图像融合需求</h1>
+    <!-- 登录表单 -->
+    <div class="card offset-2 col-8 align-items-center mb-3 mt-3" style="background-color: #4da1be;">
+        <h2></h2>
+        <h3 class="text-center"  style="color: #ecFFFFFF ;font-family: 'LiSu';">多聚焦+多模态+多曝光</h3>
+
+        <div class="card-body col-10">
+            <form name="login_form" action="/login" method="post">
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label" style="color: aliceblue;font-family: 'LiSu';">用户名:</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">(„• ֊ •„)</span>
+                        <input type="text" class="form-control" placeholder="输入用户名" name="username">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd" class="form-label" style="color: aliceblue;font-family: 'LiSu';">密码:</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">(„> ֊ <„)</span>
+                        <input type="password" class="form-control" placeholder="输入密码" name="passwd">
+                    </div>
+                </div>
+                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+            </form>
+            <button v-on:click="login" class="col-2 btn btn-primary" style="color: rgb(117, 66, 15);background-color: rgb(246, 238, 218);">登录</button>
+            <button v-on:click="go_register" class="col-2 offset-8 btn btn-primary ml-3" style="color: rgb(117, 66, 15);background-color: rgb(246, 238, 218);">注册</button>
+        </div>
+    </div>
+    <!-- 图片 -->
+    <!-- <img src="/static/images/白九尾狐.jpg" alt="beautiful" class="rounded-3 col-8 mx-auto d-block"> -->
+
+    <script src="/static/js/login.js"></script>
+</body>
+</html>

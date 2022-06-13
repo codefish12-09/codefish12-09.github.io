@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/bootstrap5/css/bootstrap.min.css">
+    <script src="/static/js/vue.js"></script>
+    
+    <title>图融融</title>
+</head>
+<body id="ImageFunc" background="./static/image/背景-注册.png ">
+    <div class="container pt-3" style="background-color:rgb(236, 250, 249); height: 1000px;">
+        <button v-on:click="go_login" class="btn btn-primary; offset-10" style="color: rgb(117, 66, 15);background-color: rgb(246, 238, 218);">退出登录</button>
+        <h2 class="offset-1" style="font-family: 'STHupo';color: #022b21f4;">为保证融合效果，请上传两张已配准的图片</h2>
+        
+        <div class="container row mb-1">
+            <input id="first" type="file" value="" class="col-3 btn offset-1">
+            <input id="second" type="file" value="" class="col-3 btn offset-2">
+            <button @click="upload" id="first" class="offset-1 col-2 btn btn-primary " style="color: rgb(117, 66, 15);background-color: rgb(246, 238, 218);">开始融合</button>
+        </div>
+        <h3 v-if="wait" class="col-2 offset-5 mt-5">请稍等...</h3>
+        <div class="row mt-3">
+            <img v-if="show" class="col-2 offset-1" id="result" :src="image1" style="width:300px; height:auto;"/>
+            <img v-if="show" class="col-2 offset-1" id="result" :src="image2" style="width:300px; height:auto;"/>
+        </div>
+        
+        <div v-if="show" class="row mt-3">
+            <p class="h3 col-2 offset-1">融合结果 -> </p>
+            <img  class="col-2" id="result" alt="" :src="result_image" style="width:400px; height:auto;"/>
+        </div>
+
+    </div>
+
+
+    <!-- <button @click="log">wahaha</button> -->
+<!--    <img id="result" :src="result_image" class="col-3" style="height: auto;" alt=""/>-->
+    <script src="/static/js/image_func.js"></script>
+</body>
+
+</html>
