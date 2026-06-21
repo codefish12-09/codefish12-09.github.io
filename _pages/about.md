@@ -2,15 +2,15 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://www.tju.edu.cn/'>Tianjin University</a> · Computer Vision · Multimodal Foundation Models
+subtitle: Incoming Ph.D. Student at Nanjing University · PRLab
 
 profile:
   align: right
   image: zsy.webp
   image_circular: false
   more_info: >
-    <p><span>Affiliation</span> Tianjin University</p>
-    <p><span>Research</span> CV & Multimodal AI</p>
+    <p><span>Affiliation</span> Nanjing University (PRLab)</p>
+    <p><span>Research</span> AI Agents · Agent Security · Agentic RAG</p>
     <p><span>Advisor</span> <a href="https://sites.google.com/site/yanbofan0124/">Prof. Yanbo Fan</a></p>
 
 news: true
@@ -20,24 +20,24 @@ social: true
 
 ## Biography
 
-I am **Shiyu Zhang**, a researcher at **[Tianjin University](https://www.tju.edu.cn/)**. My research focuses on **computer vision**, **multimodal foundation models**, and **compositional visual reasoning**. I am advised by **[Prof. Yanbo Fan](https://sites.google.com/site/yanbofan0124/)**.
+I am an incoming Ph.D. student at Nanjing University, joining the Pattern Recognition Laboratory (PRLab). My research focuses on **AI agents**, **agent security**, and **agentic RAG**. I am advised by **[Prof. Yanbo Fan](https://sites.google.com/site/yanbofan0124/)**.
 
-I am especially interested in models that connect visual perception with language and structured concepts. My recent work studies **compositional zero-shot learning**, where models must recognize new state-object or attribute-object combinations by learning more transferable visual representations.
+I am especially interested in the intersection of AI agents and security, building systems that can reason, retrieve knowledge, and act reliably in complex environments.
 
 ## Research Interests
 
 <div class="research-areas">
   <div class="research-area">
-    <strong>Computer Vision</strong>
-    <span>Visual representation learning, recognition, zero-shot generalization, and robust visual understanding.</span>
+    <strong>AI Agents</strong>
+    <span>Autonomous agent design, multi-agent systems, tool use, planning, and agentic workflows.</span>
   </div>
   <div class="research-area">
-    <strong>Multimodal Foundation Models</strong>
-    <span>Vision-language alignment, multimodal understanding, and scalable representation learning.</span>
+    <strong>Agent Security</strong>
+    <span>Security analysis of AI agents, adversarial robustness, safe agent deployment, and trustworthiness.</span>
   </div>
   <div class="research-area">
-    <strong>Compositional Reasoning</strong>
-    <span>Compositional zero-shot learning, attribute-object recognition, and concept-level visual reasoning.</span>
+    <strong>Agentic RAG</strong>
+    <span>Retrieval-augmented generation with agent-level reasoning, knowledge-grounded decision making, and adaptive retrieval strategies.</span>
   </div>
 </div>
 
