@@ -6,7 +6,7 @@ subtitle: <a href='https://www.tju.edu.cn/'>Tianjin University</a> · Computer V
 
 profile:
   align: right
-  image:
+  image: zsy.webp
   image_circular: false
   more_info: >
     <p><span>Affiliation</span> Tianjin University</p>
