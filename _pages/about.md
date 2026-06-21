@@ -20,7 +20,7 @@ social: true
 
 ## Biography
 
-I am an incoming Ph.D. student at Nanjing University, joining the Pattern Recognition Laboratory (PRLab). My research focuses on **AI agents**, **agent security**, and **agentic RAG**. I am advised by **[Prof. Yanbo Fan](https://sites.google.com/site/yanbofan0124/)**.
+I am an incoming Ph.D. student at Nanjing University, joining the Pattern Recognition Laboratory (PRLab). My research focuses on **AI Agents**, **Agent Security**, and **Agentic RAG**. I am advised by **[Prof. Yanbo Fan](https://sites.google.com/site/yanbofan0124/)**.
 
 I am especially interested in the intersection of AI agents and security, building systems that can reason, retrieve knowledge, and act reliably in complex environments.
 
