@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Incoming Ph.D. Student at [Nanjing University](https://www.nju.edu.cn/) · [PRLab](https://prlab-nju.com/)
+subtitle: Incoming Ph.D. Student at <a href='https://www.nju.edu.cn/' target='_blank' rel='noopener noreferrer'>Nanjing University</a> · <a href='https://prlab-nju.com/' target='_blank' rel='noopener noreferrer'>PRLab</a>
 
 profile:
   align: right
