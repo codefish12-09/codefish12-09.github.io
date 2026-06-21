@@ -26,7 +26,7 @@ I am especially interested in the intersection of AI agents and security, buildi
 
 ## Previous Experience
 
-I received my M.S. degree from the School of Computer Science and Technology, [Tianjin University](https://www.tju.edu.cn/) (2023–2026), where I was supervised by [Prof. Wenjun Wang](https://scholar.google.com/citations?user=9JcQ2hwAAAAJ&hl=en) and [Assoc. Prof. Cheng Yan](https://jingchenchen.github.io/). My research there focused on **multimodal foundation models** and **compositional zero-shot learning**. I had the pleasure of collaborating with [Prof. Yang Liu](https://scholar.google.com/citations?user=9JcQ2hwAAAAJ&hl=en) and [Chenchen Jing](https://jingchenchen.github.io/).
+I received my M.S. degree from the School of Computer Science and Technology, [Tianjin University](https://www.tju.edu.cn/) (2023–2026), where I was supervised by Prof. Wenjun Wang and Assoc. Prof. Cheng Yan. My research there focused on **multimodal foundation models** and **compositional zero-shot learning**. I had the pleasure of collaborating with [Prof. Yang Liu](https://scholar.google.com/citations?user=9JcQ2hwAAAAJ&hl=en) and [Chenchen Jing](https://jingchenchen.github.io/).
 
 ## Internships
 
