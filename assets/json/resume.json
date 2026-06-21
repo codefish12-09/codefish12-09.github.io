@@ -1,0 +1,77 @@
+{
+  "basics": {
+    "name": "Shiyu Zhang",
+    "label": "Researcher at Tianjin University",
+    "image": "",
+    "email": "",
+    "url": "https://zhangshiyu.github.io",
+    "summary": "Researcher at Tianjin University focusing on computer vision, multimodal foundation models, and compositional visual reasoning.",
+    "location": {
+      "city": "Tianjin",
+      "countryCode": "CN",
+      "region": "China"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Shiyu Zhang",
+        "url": "https://scholar.google.com/citations?user=PXdxEjYAAAAJ"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Tianjin University",
+      "location": "Tianjin, China",
+      "url": "https://www.tju.edu.cn",
+      "area": "Computer Vision, Multimodal Foundation Models, Compositional Visual Reasoning",
+      "studyType": "Researcher",
+      "startDate": "",
+      "endDate": "",
+      "courses": ["Advisor: Prof. Yanbo Fan"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Learning Visual Proxy for Compositional Zero-Shot Learning",
+      "publisher": "ICCV 2025",
+      "releaseDate": "2025-10-19",
+      "url": "https://doi.org/10.1109/ICCV51701.2025.00268",
+      "summary": "Compositional zero-shot learning with transferable visual proxy representations."
+    },
+    {
+      "name": "Local Homophily-Aware Graph Neural Network with Adaptive Polynomial Filters for Scalable Graph Anomaly Detection",
+      "publisher": "KDD 2025",
+      "releaseDate": "2025-02-01",
+      "url": "https://dl.acm.org/doi/10.1145/3711896.3737031",
+      "summary": "Collaborative paper accepted as an oral presentation."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research",
+      "level": "",
+      "icon": "fa-solid fa-magnifying-glass",
+      "keywords": ["Computer Vision", "Multimodal Foundation Models", "Compositional Zero-Shot Learning"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computer Vision",
+      "icon": "fa-solid fa-eye",
+      "keywords": ["Visual representation learning", "Zero-shot generalization", "Recognition"]
+    },
+    {
+      "name": "Multimodal AI",
+      "icon": "fa-solid fa-layer-group",
+      "keywords": ["Vision-language alignment", "Foundation models", "Compositional reasoning"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Prof. Yanbo Fan",
+      "icon": "fa-solid fa-user-graduate",
+      "reference": "Advisor. https://sites.google.com/site/yanbofan0124/"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Shiyu Zhang
+    - name: Website
+      value: https://zhangshiyu.github.io
+    - name: Google Scholar
+      value: https://scholar.google.com/citations?user=PXdxEjYAAAAJ
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Researcher
+      institution: Tianjin University, China
+      year: Present
+      description:
+        - Advisor: Prof. Yanbo Fan.
+        - Research interests: computer vision, multimodal foundation models, and compositional visual reasoning.
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Computer Vision
+      items:
+        - Visual representation learning, recognition, zero-shot generalization, and robust visual understanding.
+    - title: Multimodal Foundation Models
+      items:
+        - Vision-language alignment, multimodal understanding, and scalable representation learning.
+    - title: Compositional Reasoning
+      items:
+        - Compositional zero-shot learning, attribute-object recognition, and concept-level visual reasoning.
